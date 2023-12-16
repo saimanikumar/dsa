@@ -1,3 +1,7 @@
+# You are given an n x n binary matrix grid. You are allowed to change at most one 0 to be 1. 
+# A group of connected 1s forms an island. Two 1s are connected if they share one of their sides with each other. 
+# Return the size of the largest island in the grid after applying this
+
 def largestIsland(self, grid : List[List[int]]) -> int:
     n = len(grid)
     p = [i for i in range(n*n)]
